@@ -23,7 +23,7 @@
 
 A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a different programming language!
 
-[![Run Day 1](https://img.shields.io/badge/▶️_Run_Day_1-Ruby_on_Rails-CC0000?style=for-the-badge&logo=rubyonrails)](./day_one)
+[![Run Day 1](https://img.shields.io/badge/▶️_Run_Day_1-Ruby_on_Rails-CC0000?style=for-the-badge&logo=rubyonrails)](./day_01)
 
 ## 🌟 Challenge Progress
 

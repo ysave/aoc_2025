@@ -1,0 +1,11 @@
+# Ignore Rails tmp files
+/tmp/*
+!/tmp/.keep
+
+# Ignore pid and cache files
+/tmp/pids/*
+!/tmp/pids/.keep
+
+/tmp/cache/*
+!/tmp/cache/assets
+/tmp/cache/assets/*

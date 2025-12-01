@@ -9,3 +9,6 @@
 /tmp/cache/*
 !/tmp/cache/assets
 /tmp/cache/assets/*
+
+/log/*.log
+/log/*.pid

@@ -30,7 +30,7 @@ A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a 
 ## 🌟 Challenge Progress
 
 - **Goal**: Complete all 12 days using 12 different languages
-- **Status**: 1/12 days complete
+- **Status**: 2/12 days complete
 
 ---
 
@@ -69,7 +69,7 @@ RotationChecker.part_two  # => 6122
 ## Day 2: Gift Shop 🎁
 
 **Language**: Java
-**Stars**: ⭐
+**Stars**: ⭐⭐
 
 You arrive in the bustling North Pole gift shop, only to discover that a playful Elf has filled the product database with invalid IDs. Your mission: identify all invalid IDs in each range.
 

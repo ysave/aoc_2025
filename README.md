@@ -48,7 +48,8 @@ Navigate a circular safe dial (0-99) following rotation instructions to find sec
 
 **Manual Setup**:
 ```bash
-cd day_one
+# In terminal
+cd day_01
 bundle install
 rails server
 rails console
@@ -61,7 +62,7 @@ RotationChecker.part_one  # => 1064
 RotationChecker.part_two  # => 6122
 ```
 
-**Input**: Place your puzzle input in `lib/inputs/rotations.txt`
+**Input**: Place your puzzle input in `day_01/lib/inputs/rotations.txt`
 
 ---
 
@@ -91,6 +92,7 @@ Examples:
 **Manual Setup**:
 
 ```bash
+# In terminal
 cd day_02
 javac GiftShop.java
 ```
@@ -98,6 +100,7 @@ javac GiftShop.java
 **Run**:
 
 ```bash
+# In terminal
 java GiftShop
 ```
 

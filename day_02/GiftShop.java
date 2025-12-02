@@ -8,6 +8,7 @@ public class GiftShop {
 
     public static void main(String[] args) throws IOException {
         GiftShop giftShop = new GiftShop();
+        giftShop.partOne();
         giftShop.partTwo();
     }
 
@@ -34,7 +35,7 @@ public class GiftShop {
             }
         }
 
-        System.out.println(sum);
+        System.out.println("Solution part one: " + sum);
     }
 
     private void partTwo() throws IOException {
@@ -66,6 +67,6 @@ public class GiftShop {
         for (Long i : invalids) {
             sum += i;
         }
-        System.out.println(sum);
+        System.out.println("Solution part two: " + sum);
     }
 }

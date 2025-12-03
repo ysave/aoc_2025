@@ -45,5 +45,38 @@ func partOne(lines []string) {
 
 
 func partTwo(lines []string) {
+	sum := 0
+	for _, line := range lines {
+		batteries := make([]int, 12)
+		
+		for i, char := range line {
+			num := int(char - '0')
+			startIndex := 0
+			
+			if len(line) - i < 12 {
+				startIndex = 12 - (len(line) - i)
+			}
+				
+			for j := startIndex; j < 12; j++ {
+				if batteries[j] < num {
+					batteries[j] = num
+
+					for k := j + 1; k < 12; k++ {
+						batteries[k] = 0
+					}
+					
+					break
+				}
+			}
+		}
+
+		jolts := 0
+		for _, battery := range batteries {
+			jolts = jolts * 10 + battery
+		}
+		fmt.Println("Jolts for line:", jolts)
+		sum += jolts
 	
+	}
+	fmt.Println("Solution part two:", sum)
 }

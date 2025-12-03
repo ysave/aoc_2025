@@ -27,10 +27,12 @@ A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a 
 
 [![Run Day 2](https://img.shields.io/badge/▶️_Run_Day_2-Java-5382A1?style=for-the-badge\&logo=openjdk)](./day_02)
 
+[![Run Day 3](https://img.shields.io/badge/▶️_Run_Day_3-Go-00ADD8?style=for-the-badge&logo=go)](./day_03)
+
 ## 🌟 Challenge Progress
 
 - **Goal**: Complete all 12 days using 12 different languages
-- **Status**: 2/12 days complete
+- **Status**: 3/12 days complete
 
 ---
 
@@ -105,6 +107,42 @@ java GiftShop
 ```
 
 **Input**: Place your puzzle input in `day_02/inputs.txt`
+
+---
+
+## Day 3: Lobby 🔋
+
+**Language**: Go
+**Stars**: ⭐⭐
+
+You descend into the vast lobby only to find all elevators offline due to an electrical surge. The escalator to the printing department also needs power. Your task: find the optimal battery configurations to generate maximum joltage.
+
+#### Problem Summary
+
+The batteries are arranged in banks (one per line), each battery labeled with a joltage rating from 1-9.
+
+- **Part 1**: Turn on exactly **2 batteries** per bank to maximize joltage. The joltage produced equals the 2-digit number formed by those batteries.
+  - Example: `987654321111111` → turn on `9` and `8` → `98` jolts
+  - Example: `811111111111119` → turn on `8` and `9` → `89` jolts
+
+- **Part 2**: Turn on exactly **12 batteries** per bank to maximize joltage. The joltage produced equals the 12-digit number formed by those batteries.
+  - Example: `987654321111111` → `987654321111` jolts (skip three `1`s)
+
+### 🚀 Quick Start
+**Prerequisites**: Go 1.21+
+
+**Manual Setup**:
+```bash
+# In terminal
+cd day_03
+```
+
+**Run**:
+```bash
+go run main.go
+```
+
+**Input**: Place your puzzle input in `day_03/joltages.txt`
 
 ---
 

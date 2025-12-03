@@ -50,7 +50,7 @@ Navigate a circular safe dial (0-99) following rotation instructions to find sec
 
 **Manual Setup**:
 ```bash
-# In terminal
+# In Terminal
 cd day_01
 bundle install
 rails server
@@ -94,7 +94,7 @@ Examples:
 **Manual Setup**:
 
 ```bash
-# In terminal
+# In Terminal
 cd day_02
 javac GiftShop.java
 ```
@@ -102,7 +102,7 @@ javac GiftShop.java
 **Run**:
 
 ```bash
-# In terminal
+# In Terminal
 java GiftShop
 ```
 
@@ -133,12 +133,13 @@ The batteries are arranged in banks (one per line), each battery labeled with a 
 
 **Manual Setup**:
 ```bash
-# In terminal
+# In Terminal
 cd day_03
 ```
 
 **Run**:
 ```bash
+# In Terminal
 go run main.go
 ```
 

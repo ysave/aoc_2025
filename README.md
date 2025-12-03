@@ -23,11 +23,14 @@
 
 A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a different programming language!
 
-[![Run Day 1](https://img.shields.io/badge/▶️_Run_Day_1-Ruby_on_Rails-CC0000?style=for-the-badge&logo=rubyonrails)](./day_01)
+[![Day 1](https://img.shields.io/badge/Day_1-Ruby_on_Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white)](./day_01)
 
-[![Run Day 2](https://img.shields.io/badge/▶️_Run_Day_2-Java-5382A1?style=for-the-badge\&logo=openjdk)](./day_02)
+[![Day 2](https://img.shields.io/badge/Day_2-Java-5382A1?style=for-the-badge&logo=openjdk&logoColor=white)](./day_02)
 
-[![Run Day 3](https://img.shields.io/badge/▶️_Run_Day_3-Go-00ADD8?style=for-the-badge&logo=go)](./day_03)
+[![Day 3](https://img.shields.io/badge/Day_3-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)](./day_03)
+
+[![Day 4](https://img.shields.io/badge/Day_4-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](./day_04)
+
 
 ## 🌟 Challenge Progress
 

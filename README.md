@@ -35,7 +35,7 @@ A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a 
 ## 🌟 Challenge Progress
 
 - **Goal**: Complete all 12 days using 12 different languages
-- **Status**: 3/12 days complete
+- **Status**: 4/12 days complete
 
 ---
 
@@ -147,6 +147,46 @@ go run main.go
 ```
 
 **Input**: Place your puzzle input in `day_03/joltages.txt`
+
+---
+
+## Day 4: Printing Department 📄
+
+**Language**: Rust
+**Stars**: ⭐⭐
+
+You arrive at the printing department where large rolls of paper are everywhere. To help the Elves break through a wall to reach the cafeteria, you need to optimize forklift operations by identifying which paper rolls can be accessed.
+
+#### Problem Summary
+
+Paper rolls (`@`) are arranged on a grid. A forklift can only access a roll if it has fewer than 4 neighboring rolls (checking all 8 adjacent positions).
+
+- **Part 1**: Count how many rolls can be accessed by a forklift in the initial configuration.
+  - Example: In a 10x10 grid, 13 rolls might be accessible
+
+- **Part 2**: Count the total number of rolls that can be removed through iterative removal.
+  - When a roll is removed, other rolls may become accessible
+  - Continue removing accessible rolls until no more can be accessed
+  - Example: Starting with 13 accessible rolls, you might remove 43 total through multiple passes
+
+### 🚀 Quick Start
+**Prerequisites**: Rust 1.70+ (with Cargo)
+
+**Manual Setup**:
+```bash
+# In Terminal
+cd day_04
+```
+
+**Run**:
+```bash
+# In Terminal
+cargo run
+# or compile and run
+rustc main.rs && ./main
+```
+
+**Input**: Place your puzzle input in `day_04/rolls.txt`
 
 ---
 

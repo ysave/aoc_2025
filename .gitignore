@@ -3,3 +3,7 @@ aoc_2025.iml
 .idea/**
 *.class
 .idea
+
+/day_04/target
+/day_04/target/**
+/day_04/Cargo.lock

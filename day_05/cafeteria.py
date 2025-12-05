@@ -1,6 +1,7 @@
 def main():
     ranges, ingredient_ids = get_lists()
-    part_one(ranges, ingredient_ids)   
+    part_one(ranges, ingredient_ids)
+    part_two(ranges)
 
 def get_lists():
     ranges = []
@@ -25,6 +26,25 @@ def part_one(ranges, ingredient_ids):
         for ingredient in ingredient_set:
             if start <= ingredient <= end:
                 fresh_ingredients.add(ingredient)
-    print(f"Total fresh ingredients found: {fresh_ingredients.__len__()}")
+    print(f"Solution part 1: {fresh_ingredients.__len__()}")
+
+def part_two(ranges):
+    intervals = sorted([tuple(map(int, r.split('-'))) for r in ranges])
+
+    merged_intervals = []
+    current_start, current_end = intervals[0]
+
+    for start, end in intervals[1:]:
+        if start <= current_end:
+            current_end = max(current_end, end)
+        else:
+            merged_intervals.append((current_start, current_end))
+            current_start, current_end = start, end
+    
+    merged_intervals.append((current_start, current_end))
+
+    total_covered = sum(end - start + 1 for start, end in merged_intervals)
+    print(f"Solution part 2: {total_covered}")
+
 
 main()

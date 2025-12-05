@@ -31,11 +31,13 @@ A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a 
 
 [![Day 4](https://img.shields.io/badge/Day_4-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](./day_04)
 
+[![Day 5](https://img.shields.io/badge/Day_5-Python-3670A0?style=for-the-badge&logo=python&logoColor=white)](./day_04)
+
 
 ## 🌟 Challenge Progress
 
 - **Goal**: Complete all 12 days using 12 different languages
-- **Status**: 4/12 days complete
+- **Status**: 5/12 days complete
 
 ---
 
@@ -187,6 +189,45 @@ rustc main.rs && ./main
 ```
 
 **Input**: Place your puzzle input in `day_04/rolls.txt`
+
+---
+
+
+## Day 5: Cafeteria 🍽️
+
+**Language**: Python
+**Stars**: ⭐⭐
+
+You break through to the cafeteria, only to find the kitchen in chaos. The new inventory management system has made it impossible to determine which ingredients are fresh and which are spoiled.
+
+#### Problem Summary
+
+The database contains fresh ingredient ID ranges and available ingredient IDs:
+
+- **Part 1**: Count how many available ingredient IDs fall within the fresh ranges.
+  - Example: Given ranges `3-5`, `10-14`, `16-20`, `12-18` and IDs `1`, `5`, `8`, `11`, `17`, `32`
+  - Fresh IDs: `5`, `11`, `17` → **3 fresh ingredients**
+
+- **Part 2**: Count the total number of ingredient IDs covered by all fresh ranges (ignoring the available IDs list).
+  - The ranges can overlap and should be merged
+  - Example: Same ranges cover `3`, `4`, `5`, `10-20` → **14 total fresh IDs**
+
+### 🚀 Quick Start
+**Prerequisites**: Python 3.x
+
+**Manual Setup**:
+```bash
+# In Terminal
+cd day_05
+```
+
+**Run**:
+```bash
+# In Terminal
+python main.py
+```
+
+**Input**: Place your puzzle input in `day_05/ingredients.txt`
 
 ---
 

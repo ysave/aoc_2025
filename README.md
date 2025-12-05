@@ -31,7 +31,7 @@ A polyglot journey through Advent of Code 2025 - solving each day's puzzle in a 
 
 [![Day 4](https://img.shields.io/badge/Day_4-Rust-000000?style=for-the-badge&logo=rust&logoColor=white)](./day_04)
 
-[![Day 5](https://img.shields.io/badge/Day_5-Python-3670A0?style=for-the-badge&logo=python&logoColor=white)](./day_04)
+[![Day 5](https://img.shields.io/badge/Day_5-Python-3670A0?style=for-the-badge&logo=python&logoColor=white)](./day_05)
 
 
 ## 🌟 Challenge Progress
